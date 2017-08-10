@@ -5,8 +5,8 @@
 //  - instanceName: Identifyer for this logical instance. 
 //	- iterator: The current iteration (how many IDs have been used).
 //
-// Outputs...
-//  - Validated random generator within ideal range for required capacity. 
+// Output...
+//  - A validated random generator within ideal range for required capacity. 
 
 function gcd(a,b) {
     a = Math.abs(a);
