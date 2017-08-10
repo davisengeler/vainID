@@ -1,4 +1,5 @@
 // This code creates and validates random, ideal generators based on the iterator.
+// It's what enables the "procedurally generated" nature of my algorithm to function. 
 // 
 // Inputs...
 //  - instanceName: Identifyer for this logical instance. 
