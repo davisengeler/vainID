@@ -1,5 +1,3 @@
-from urllib.parse import urlparse
-from math import gcd
 import math
 import hashlib
 
@@ -12,9 +10,9 @@ def to_base(n):
 def create_generator(capacity, seed):
     hashed_seed = int(hashlib.sha256(seed.encode('utf-8')).hexdigest(), 16)
     generator = hashed_seed % math.floor(capacity*.8)  # Starting point
-    while gcd(generator,capacity)!=1 and generator < capacity:  # We need a generator that's coprime to the capacity.
+    while math.gcd(generator,capacity)!=1 and generator < capacity:  # We need a generator that's coprime to the capacity.
         generator += 1  # There may be a smarter way to find one, but I just increment by 1 each time until I find one.
-    if gcd(generator,capacity)!=1:
+    if math.gcd(generator,capacity)!=1:
         # Raise an error if one can't be found. 
         raise ValueError("Could not find a 'generator' that is relatively prime to the capacity ({capacity})")
     return generator
