@@ -1,4 +1,4 @@
-# Vanity ID Generator
+# vainID: Vanity ID Generator
 
 This is a python package for generating short, auto-growing, and visually-random unique IDs with no collisions or limits. 
 
