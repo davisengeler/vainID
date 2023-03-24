@@ -9,7 +9,7 @@ To use the package, import the `generate_id` function from `__init__.py`. The fu
 Example usage:
 
 ```python
-from vanity_id_generator import generate_id
+from vainid import generate_id
 
 id = generate_id(0, "myseed") # Generate an ID for iteration 0 with seed "myseed"
 ```
