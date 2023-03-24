@@ -24,9 +24,9 @@ The `generate_id` function takes the iteration number and `seed` as input and us
 
 ## Testing
 
-The test.py file contains a test function run_test that tests the generate_id function for collisions. It generates a sequence of IDs with a given seed and checks for duplicates. If a duplicate is found, it prints an error message and stops the test.
+The `test.py` file contains a test function run_test that tests the generate_id function for collisions. It generates a sequence of IDs with a given seed and checks for duplicates. If a duplicate is found, it prints an error message and stops the test.
 
-To run the tests, run test.py.
+To run the tests, run `python test.py`.
 
 ## Contributors
 
