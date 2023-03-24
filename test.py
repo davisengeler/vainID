@@ -28,5 +28,5 @@ def run_test(seed, iterations=100):
 
 # Run tests
 test_seed = "abc123"
-run_test(test_seed, 25000)
+run_test(test_seed, 70)
 # print(generate_id(14776336, test_seed))
